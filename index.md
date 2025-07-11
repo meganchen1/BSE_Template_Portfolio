@@ -45,7 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1312" height="738" src="https://www.youtube.com/embed/EHBBRVKjveg" title="Megan C Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my first milestone, I completed wiring both the robot car and hand gesture controller parts. They send information to each other via bluetooth. For the hand gesture controller, there is an accelerometer which has a motion sensor and sends that data to the Arduino Nano. The Arduino Nano then transmits this data to my other bluetooth module and the information sent from the accelerometer will be inputted and the output would be the motors turning the wheels and making the robot car move. Some problems I faced this week were not getting the motors working and not being able to attach a battery to my controller. I hope to get these problems sorted out by the end of next week and I also hope to get more coding done also.
 

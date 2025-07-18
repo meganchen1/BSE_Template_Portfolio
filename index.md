@@ -33,13 +33,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1312" height="738" src="https://www.youtube.com/embed/u0XXYq07BIA" title="Megan C Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone
+For my second milestone, I completed my base project. First, I wired my bluetooth modules which I had a little trouble wiring, but I eventually came to a solution and the bluetooth modules were sending signals to each other. After the bluetooth modules worked, I coded both the controller and the robot. I had a few coding issues with the controller, but coding my robot motors were much more challenging. I had to figure out which direction the motor moved based on what code I inputted. I'm very proud of what I have accomplished this week. For my next milestone, I hope to finish my modifications with 3D modeling a handle and case for my controller.
 
 # First Milestone
 

@@ -35,12 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="1312" height="738" src="https://www.youtube.com/embed/u0XXYq07BIA" title="Megan C Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
-For my second milestone, I completed my base project. First, I wired my bluetooth modules which I had a little trouble wiring, but I eventually came to a solution and the bluetooth modules were sending signals to each other. After the bluetooth modules worked, I coded both the controller and the robot. I had a few coding issues with the controller, but coding my robot motors were much more challenging. I had to figure out which direction the motor moved based on what code I inputted. I'm very proud of what I have accomplished this week. For my next milestone, I hope to finish my modifications with 3D modeling a handle and case for my controller.
+For my second milestone, I completed my base project. First, I wired my bluetooth modules which I had a little trouble wiring, but I eventually came to a solution and the bluetooth modules were successfully sending signals to each other. After the bluetooth modules worked, I coded both the controller and the robot. I had a few coding issues with the controller, but coding my robot motors were much more challenging. I had to figure out which direction the motor moved based on what code I inputted. I'm very proud of what I have accomplished this week. For my next milestone, I hope to finish my modifications with 3D modeling a handle and case for my controller.
 
 # First Milestone
 
@@ -75,7 +70,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|Robotic Car Chassis Kit | Base of the car | $23.99 | <a href="https://www.amazon.com/perseids-Chassis-Encoder-Wheels-Battery/dp/B07DNXBFQN?gQT=1&gRefinements=UNSTRUCTURED%3AFor%2BSale&th=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 

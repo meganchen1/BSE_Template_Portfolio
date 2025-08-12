@@ -31,15 +31,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="1312" height="738" src="https://www.youtube.com/embed/u0XXYq07BIA" title="Megan C Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For my second milestone, I completed my base project. First, I wired my bluetooth modules which I had a little trouble wiring, but I eventually came to a solution and the bluetooth modules were successfully sending signals to each other. After the bluetooth modules worked, I coded both the controller and the robot. I had a few coding issues with the controller, but coding my robot motors were much more challenging. I had to figure out which direction the motor moved based on what code I inputted. I'm very proud of what I have accomplished this week. For my next milestone, I hope to finish my modifications with 3D modeling a handle and case for my controller.
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="1312" height="738" src="https://www.youtube.com/embed/EHBBRVKjveg" title="Megan C Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -48,9 +44,7 @@ For my first milestone, I completed wiring both the robot car and hand gesture c
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
-
+# Code for Robot 
 ```c++
 #include <SoftwareSerial.h>
 
@@ -123,7 +117,65 @@ void Stop(){
   digitalWrite(in4, LOW);
 }
 ```
+# Code For Gesture Control
+```
+# include <Wire.h>
 
+const int MPU = 0x68;
+int16_t AcX, AcY, AcZ;
+
+int flag=0;
+
+void setup() { // put your setup code here, to run once:
+
+
+  Wire.begin();
+  Wire.beginTransmission(MPU);  
+  Wire.write(0x6B);
+  Wire.write(0);
+  Wire.endTransmission(true);
+
+  delay(500);
+}
+
+void loop() { // put your main code here, to run repeatedly:
+  Read_accelerometer();
+
+  if(AcX<60 && flag == 0){flag = 1; BT_Serial.write('f');}
+  else if(AcX>130 && flag == 0){flag = 1; BT_Serial.write('b');}
+
+  else if(AcY<60 && flag == 0){flag = 1; BT_Serial.write('l');}
+  else if(AcY>130 && flag == 0){flag = 1; BT_Serial.write('r');}
+
+  if((AcX>70)&&(AcX<120)&&(AcY>70)&&(AcY<120)&&(flag==1)){flag=0; 
+  BT_Serial.write('s');
+  }
+
+  delay(100);
+}
+
+void Read_accelerometer(){
+  // read accelerometer data
+  Wire.beginTransmission(MPU);
+  Wire.write(0x3B);
+  Wire.endTransmission(false);
+  Wire.requestFrom(MPU, 6, true);
+
+  AcX = Wire.read() << 8 | Wire.read();
+  AcY = Wire.read() << 8 | Wire.read();
+  AcZ = Wire.read() << 8 | Wire.read();
+
+  AcX = map(AcX, -17000, 17000, 0, 180);
+  AcY = map(AcY, -17000, 17000, 0, 180);
+  AcZ = map(AcZ, -17000, 17000, 0, 180);
+
+  Serial.print(AcX);
+  Serial.print("\t");
+  Serial.print(AcY);
+  Serial.print("\t");
+  Serial.println(AcZ);
+}
+```
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 

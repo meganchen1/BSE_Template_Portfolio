@@ -1,7 +1,6 @@
 # Gesture controlled robot
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+This project involves developing a robot car as well as a hand gesture controller that allows the user to control which direction the car drives based on the direction they tilt their hand in. Through this project, I gained more knowledge on coding, wiring, and bluetooth connectivity. With this knowledge, I was able to create a really cool, fully-functional gesture controlled robot.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->

@@ -30,7 +30,7 @@ For my first milestone, I completed wiring both the robot car and hand gesture c
 # Schematic for Robot Car
 
 ![Headstone Image](Robot_Car_Schematic.png)
-# Schematics for Hand Gesture Controller
+# Schematic for Hand Gesture Controller
 
 ![Headstone Image](Controller_Schematic.png)
 # Code for Robot Car 

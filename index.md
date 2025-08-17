@@ -6,7 +6,7 @@ This project involves developing a robot car as well as a hand gesture controlle
 | Megan C | Jericho High School | Mechanical Engineering | Incoming Senior
 
 ![Headstone Image](IMG_8421.jpg)
-  
+
 # Final Milestone
 
 <iframe width="1312" height="738" src="https://www.youtube.com/embed/qKfn8Oa1uBs" title="Megan C Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

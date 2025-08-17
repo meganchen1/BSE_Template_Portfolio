@@ -5,8 +5,6 @@ This project involves developing a robot car as well as a hand gesture controlle
 |:--:|:--:|:--:|:--:|
 | Megan C | Jericho High School | Mechanical Engineering | Incoming Senior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](IMG_8421.jpg)
   
 # Final Milestone
@@ -31,7 +29,7 @@ For my first milestone, I completed wiring both the robot car and hand gesture c
 
 # Schematics 
 Schematics for robot car
-![Headstone Image](IMG_8421.jpg)
+![Headstone Image](Screenshot 2025-08-17 183349.png) 
 
 # Code for Robot Car 
 ```c++

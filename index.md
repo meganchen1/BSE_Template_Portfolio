@@ -27,11 +27,13 @@ For my second milestone, I completed my base project. First, I wired my bluetoot
 
 For my first milestone, I completed wiring both the robot car and hand gesture controller parts. They send information to each other via bluetooth. For the hand gesture controller, there is an accelerometer which has a motion sensor and sends that data to the Arduino Nano. The Arduino Nano then transmits this data to my other bluetooth module and the information sent from the accelerometer will be inputted and the output would be the motors turning the wheels and making the robot car move. Some problems I faced this week were not getting the motors working and not being able to attach a battery to my controller. I hope to get these problems sorted out by the end of next week and I also hope to get more coding done also.
 
-# Schematics 
-Schematics for robot car
+# Schematic for Robot Car
 
-![gh-pages](Screenshot 2025-08-17 183349.png) 
+![Headstone Image]()
 
+# Schematics for Hand Gesture Controller
+
+![Headstone Image]()
 # Code for Robot Car 
 ```c++
 #include <SoftwareSerial.h>

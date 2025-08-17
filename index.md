@@ -11,7 +11,7 @@ This project involves developing a robot car as well as a hand gesture controlle
 
 <iframe width="1312" height="738" src="https://www.youtube.com/embed/qKfn8Oa1uBs" title="Megan C Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my final milestone, I finished 3D printing a case for my
+For my final milestone, I finished 3D printing a case for my gesture controller. I had some trouble with getting the cap to snap onto the box since I wanted it to click perfectly. I am very proud of the final product and after this program is over, I plan on continuing to 3D print a shell around my car and maybe adding a sensor to prevent the car from bumping into walls. I am also extremely happy with how smooth my demo night presentation went. This was an amazing learning experience and I'm so glad I had the chance to work on this really cool project!
 
 
 
@@ -32,7 +32,7 @@ For my first milestone, I completed wiring both the robot car and hand gesture c
 ![Headstone Image](Robot_Car_Schematic.png)
 # Schematics for Hand Gesture Controller
 
-![Headstone Image]()
+![Headstone Image](Controller_Schematic.png)
 # Code for Robot Car 
 ```c++
 #include <SoftwareSerial.h>

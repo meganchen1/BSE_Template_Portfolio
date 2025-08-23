@@ -1,4 +1,4 @@
-# Gesture controlled robot
+# Gesture Controlled Robotic Car
 This project involves developing a robot car as well as a hand gesture controller that allows the user to control which direction the car drives based on the direction they tilt their hand in. Through this project, I gained more knowledge on coding, wiring, and bluetooth connectivity. With this knowledge, I was able to create a really cool, fully-functional gesture controlled robot.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
